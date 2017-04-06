@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.LoginPageBg{background: url(../img/bg-login.jpg) !important;}
+.MainPageBg{background: url(../img/bg.png) !important;}
+.LoginBg{background:#fff;}
+
+.LoginHead{ color:#007cae !important; font-size:22px; text-transform:capitalize; font-weight:600;}
+
+
+.LoginBoxBlue{background:#3c5a9a !important; padding-bottom:60px; color:#ffffff !important; text-align:left !important;}
+.LoginBoxBlue label{color:#ffffff !important; }
+.LoginBoxBlue .ForgotPass { color:#fff;}
+
+.LoginBoxBlue .checkbox-styled:not(ie8) input ~ span:before, .radio-styled:not(ie8) input ~ span:before {
+    border: 2px solid #3d9ebb !important; 
+}
+
+.LoginBoxBlue input[type=text]{background:#ffffff;}
+.LoginBoxBlue input[type=password]{background:#ffffff;}
+
+
+.paddingLftRt0{ padding:0px !important;}
+.paddingLftRt20{ padding-left:20px !important; padding-right:20px !important;}
+
+.MarginLftRt-12{ margin-left:0px !important; margin-right:0px !important;}
+.MarginTop10{ margin-top:10px !important;}
+.MarginLeft20{ margin-left:0px !important;}
+.TextLower{text-transform: capitalize !important; font-size:12px;}
+
+.PaddingTop20{padding-top:20px !important;}
+.PaddingTop10{padding-top:10px !important;}
+.paddingLft0{padding-left:0px !important;}
+.paddingRt0{padding-right:0px !important;}
+.paddingBttm10{padding-bottom:10px !important;}
+.paddingBttm20{padding-bottom:20px !important;}
+.PaddingLeft10{padding-left:10px!important;}
+.PaddingLeft12{padding-left:12px !important;}
+.PaddingRight10{padding-right:10px !important;}
+
+
+.MarginTop20{Margin-top:20px !important;}
+.PaddingLftRt30{padding-left:30px !important; padding-right:30px !important;}
+.ForgotPass {line-height:55px; color:#666; font-size:13px;}
+.ForgotPass a{line-height:55px; color:#12b0e0; text-decoration:underline;}
+button{position:relative;}
+.btn-info{    width: 100%;
+    text-align: left;}
+
+
+button span{position: absolute; right:10px;}
+label{
+/*    text-transform:uppercase; */
+    font-weight:600 !important; margin-top:10px; color:#007cae !important; font-size:12px !important;}
+.head{ font-size:14px !important; text-transform:uppercase;   font-family: 'open_sanssemibold'; color:#666;}
+.AppName { position:relative;}
+.AppName i{ position: absolute; top:12px; right:25px;}
+
+.form-control::-moz-placeholder {
+  color: #969c9c;
+  opacity: 1; font-size:11px !important; text-transform:uppercase !important;
+}
+.form-control:-ms-input-placeholder {
+  color: #969c9c; font-size:11px !important; text-transform:uppercase !important;
+}
+.form-control::-webkit-input-placeholder {
+  color: #969c9c;font-size:11px !important; text-transform:uppercase !important;
+}
+
+.SingnUpText {
+	font-size:18px !important; text-align:left !important; color:#b5c8d6 !important; line-height:24px !important; padding:50px 70px 0px 20px; font-family: 'open_sanslight'; letter-spacing:0px;
+}
+.UnderLine {
+	width:100px; border:1px solid #fff; height:2px; margin-left:20px;
+}
+
+.RegisterNowButt {
+	border:1px solid #fff; margin-left:20px; font-size:14px; text-transform:uppercase; position:relative; color:#ffffff !important; text-align:left; line-height:50px; margin-top:120px; margin-right:20px; overflow:hidden;
+}
+.RegisterNowButt span{
+	position: absolute; right:10px; top:0px; 
+}
+
+.RegisterNowButt a{
+	width:100%; height:50px; display:block; text-decoration:none; padding-left:15px;
+}
+
+
+
+.LoginNowButt {
+	border:1px solid #fff; font-size:14px; text-transform:uppercase; position:relative; color:#ffffff !important; text-align:left; line-height:50px; margin-top:20px;
+}
+.LoginNowButt span{
+	position: absolute; right:10px; top:0px; 
+}
+
+.LoginNowButt a{
+	width:100%; height:50px; display:block; text-decoration:none; padding-left:15px;
+}
+
+
+.card-body .BackToLogin a{
+  position:absolute;
+  top:60px;
+  right:10px;
+  font-size: 18px;
+  color:green;
+  float:right;
+  font-family: 'open_sanssemibold';
+}
+
+
+.contain-sm-Registration {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ .spacerMain {
+    height: 70px;
+  }
+
+
+
+.BreadCrumb{font-size:12px; color:#666;}
+.BreadCrumb ul{ margin:0px; padding:0px;}
+.BreadCrumb li{ margin:0px; padding:0px 10px 0px 0px; list-style:none; float:left;}
+.BreadCrumb li a{ color:#039;}
+
+.PageHeading h1{text-transform:capitalize; color:#007cae; font-size:26px; font-weight:600; margin:20px 0px 0px 0px; padding:0px;}
+.PageHeading h1 i{ vertical-align: middle; font-weight:normal !important; border-radius:30px; border:3px solid #30a80b; width:45px; height:45px; text-align:center; line-height:38px; color:#30a80b !important; margin-top:-2px;}
+
+.PageHeading .Content{ width:100%; height:auto; font-size:14px; overflow:hidden; min-height:60px; background:#f6fbff; border:1px solid #dddddd; padding:20px; margin-top:25px; font-family: 'open_sanssemibold_italic';}
+.PageHeading .Content p{ margin:0px; padding:0px; color:#999;  padding: 0px 0px 0px 10px; line-height:25px;}
+.PageHeading .Content p a{ margin:0px; padding:0px; color:#46bb49; font-size:16px; text-decoration: underline;}
+
+.PageHeading .Content .Butt{  text-align:center; color:#fff; font-size:18px;}
+.PageHeading .Content .Butt a{padding:10px 15px; display:block; text-decoration:none; background:#ed7b01;}
+.PageHeading .Content .Butt a:hover{padding:10px 15px; display:block; text-decoration:none;    -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;background: #F90;}
+  
+  
+  
+.PageHeading .Controller{ width:100%; height:auto; font-size:14px; overflow:hidden; min-height:40px; background:#fff; border:1px solid #dddddd; padding:20px; margin-top:25px; font-family: 'open_sanssemibold_italic';}
+  
+  
+  .BgWhite{background:#ffffff !important; margin-top:20px; padding:0px;}
+ .BgGray{background:#d9d9d9 !important; color:#22931c; font-weight:bold; font-size:14px;  font-family: 'open_sanssemibold_italic';}
+  .BgWhite .container{width:40%; min-height:40px;}
+   .BgWhite .companyheadcont{border-bottom:1px solid #ebebeb; margin-bottom:20px; font-family: 'open_sanssemibold_italic';}
+  .BgWhite .companyheadcont ul{ padding:0px; margin:0px;}
+  .BgWhite .companyheadcont li{ padding:0px 20px; margin:0px; float: left; list-style:none; font-size:18px; color:#999; line-height:40px; border-right:1px solid #ebebeb;}
+  .BgWhite .companyheadcont li span{ color:#ed7b00;}
+  .BgWhite .companyheadcont li:last-child{border-right:0px; }
+  
+  
+  .showblue{color:#007cae; font-weight:bold;}
+  .surveycol a{color:#ec7600; text-decoration:none;}
+  .reportcol a{color:#007cae; text-decoration:none;}
+  
+  
+  .IconTopRt{float:right; margin:0px; padding:0px;}
+  .IconTopRt ul, li{ margin:10px 0px; padding:0px 0px 0px 21px ;}
+  .IconTopRt li{ list-style:none; float:left; line-height:21px; font-family: 'open_sansitalic'; font-weight:bold;}
+  .IconTopRt li span.downloads{background:url(../img/downloads.png)no-repeat; width:31px; height:21px; display:block; float:left; padding-left:15px;}
+  .IconTopRt li span.share{background:url(../img/mail.png)no-repeat; width:31px; height:21px; display:block; float:left; padding-left:15px;}
+    .IconTopRt li span.help{background:url(../img/mail.png)no-repeat; width:31px; height:21px; display:block; float:left; padding-left:15px;}
+  
+  
+  
+@media (max-width: 480px) {  
+
+	.PageHeading h1{text-transform: capitalize; color:#007cae; font-size:15px !important; font-weight:600;}
+.PageHeading h1 i{ vertical-align: middle; font-weight:normal !important; border-radius:30px; border:3px solid #30a80b; width:35px; height:35px; text-align:center; line-height:28px; color:#30a80b !important; margin-top:-2px;}
+
+
+ .BgWhite .container{width:100% !important; min-height:30px;}
+
+  .BgWhite .companyheadcont li{ padding:0px 5px; font-size:14px !important; color:#999; line-height:30px !important;}
+
+}
+
+@media (max-width: 768px) {
+	
+	.MarginLeft20{ margin-left:10px !important;}
+	.text-light {
+
+  padding-top:30px!important;
+
+}
+.SingnUpText {
+	padding:80px 80px 0px 20px !important;
+}	
+	
+	.RegisterNowButt {
+	margin-top:60px !important; clear:both;
+}
+	
+	
+	section.section-account .img-backdrop,
+  section.section-account .spacer {
+    height: 20px;
+  }
+	
+	
+	.PageHeading h1{text-transform:capitalize; color:#007cae; font-size:18px; font-weight:600;}
+.PageHeading h1 i{ vertical-align: middle; font-weight:normal !important; border-radius:30px; border:3px solid #30a80b; width:35px; height:35px; text-align:center; line-height:28px; color:#30a80b !important; margin-top:-2px;}
+
+ .IconTopRt{float:left; margin:0px; padding:0px;}
+  .IconTopRt ul, li{ margin:10px 0px; padding:0px 8px;}
+.BgWhite{margin-top:5px;}
+
+
+  .BgWhite .container{width:97%; min-height:40px;}
+  .BgWhite .companyheadcont li{ padding:0px 10px; font-size:16px;}
+
+
+	
+	}
+
+
+/*FOnts Style added*/
+
+/* Generated by Font Squirrel (https://www.fontsquirrel.com) on September 10, 2016 */
+
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('../fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansextrabold_italic';
+    src: url('../fonts/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanslight_italic';
+    src: url('../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url( '../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('../fonts/opensans-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.6;
+    }
